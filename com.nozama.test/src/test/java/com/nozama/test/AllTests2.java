@@ -44,7 +44,8 @@ public class AllTests2 {
 		    vars = new HashMap<String, Object>();
 		    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		    driver.get("http://127.0.0.1/nozama/");
-		    driver.manage().window().setSize(new Dimension(746, 798));
+		    driver.manage().window().setSize(new Dimension(745, 798));
+	  
 	  }
 	  @After
 	  public void tearDown() {
