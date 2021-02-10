@@ -39,7 +39,7 @@ public class SuiteNozama26Test2 {
   @Before
   public void testGoogleSearch() throws InterruptedException {
 	// Optional. If not specified, WebDriver searches the PATH for chromedriver.
-	System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\shruti\\selenium\\chromedriver.exe");
     driver = new ChromeDriver();
     js = (JavascriptExecutor) driver;
     //vars = new HashMap<String, Object>();
