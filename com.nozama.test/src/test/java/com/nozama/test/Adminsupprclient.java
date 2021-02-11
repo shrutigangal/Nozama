@@ -61,6 +61,7 @@ public class Adminsupprclient {
   
   @Test
   public void adminsupprclient() {
+	  
     driver.findElement(By.id("edit-name")).click();
     driver.findElement(By.id("edit-name")).sendKeys("admin1");
     driver.findElement(By.id("edit-pass")).click();
