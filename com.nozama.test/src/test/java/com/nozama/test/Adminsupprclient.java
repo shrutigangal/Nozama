@@ -67,6 +67,7 @@ public class Adminsupprclient {
     driver.findElement(By.id("edit-name")).sendKeys("admin1");
     driver.findElement(By.id("edit-pass")).click();
     driver.findElement(By.id("edit-pass")).sendKeys("admin1");
+    
     {
       List<WebElement> elements = driver.findElements(By.id("edit-submit"));
       assert(elements.size() > 0);
