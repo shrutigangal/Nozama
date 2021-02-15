@@ -48,6 +48,7 @@ public class Adminsupprclient {
 	  // Optional. If not specified, WebDriver searches the PATH for chromedriver.
 	  
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\shruti\\selenium\\chromedriver.exe");
+	
     /*driver = new ChromeDriver();
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
