@@ -44,8 +44,8 @@ public class Adminsupprclient {
   
   @BeforeClass
   public void testGoogleSearch() throws InterruptedException {
+	  // Optional. If not specified, WebDriver searches the PATH for chromedriver.
 	  
-	// Optional. If not specified, WebDriver searches the PATH for chromedriver.
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\shruti\\selenium\\chromedriver.exe");
     /*driver = new ChromeDriver();
     js = (JavascriptExecutor) driver;
